@@ -96,6 +96,6 @@ jobs:
         run: |
           # This force-pushes your repo to your Hugging Face Space
 
-          git config --global user.email "tamilvelang@github.com"
+          git config --global user.email "tamilvelang@gmail.com"
           git config --global user.name "Tamilvelang"
           git push --force https://Tamilvelang:$HF_TOKEN@huggingface.co/spaces/Tamilvelan/tourism-project main
