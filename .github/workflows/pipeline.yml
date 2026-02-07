@@ -78,7 +78,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          # Replace 'train_model.py' with your script name
           python train.py
 
 
